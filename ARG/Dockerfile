@@ -2,7 +2,7 @@ ARG version
 FROM almalinux:${version:-9}
 ENV course="DevOps with AWS" \
     trainer="Rajesh MRK" \
-    duration = "120 HRS"
+    duration="120 HRS"
 #here user1 is key, someuser is default value
 ARG USERNAME=Rajeshkumar
 ENV USERNAME=$USERNAME
